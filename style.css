@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0;
+}
+body{
+
+    background-color:#06314d ;
+    color: #fff;
+}
+.app{
+    margin-top: 11rem;
+    margin-left: 8rem;
+    width: 28rem;;
+    height:20rem ;
+}
+
+.text p{
+    font-size: 40px;
+}
+.text span{
+    color: #019f55;
+    border-bottom: 3px solid #019f55;
+    line-height: 1rem;
+}
+.container{
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    margin-top: 1rem;
+   background-color: white;
+    width: 26rem; ;
+    height:3.4rem ;
+}
+
+.container img{
+   width:26px;
+   cursor:pointer;
+}
+
+.container input{
+    margin-left: 1.2rem;
+    border-radius: 4px;
+    width: 22rem;
+    height:3rem ;
+       border: 0;
+       outline: 0;
+       font-size: 18px;
+}
+
+.generate button{
+    font-size: 17px;
+    font-weight:500;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #019f55;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    width:12.1rem ;
+    cursor:pointer;
+    margin-top: 1rem;
+    margin-left: rem;
+    height: 3rem;
+}
+
+.generate img{
+    width: 29px;
+    height: 39px;
+   
+}
+
+@media (max-width: 630px) {
+   .app{ 
+    margin-top: 15rem;
+    margin-left: 2rem;
+   }
+}
+@media (max-width: 446px) {
+    .app{ 
+     margin-top: 23rem;
+     margin-left: 2rem;
+    }
+ }
+@media (max-width: 399px) {
+    .app{ 
+     margin-top: 23rem;
+     margin-left: 1rem;
+    }
+    .container img{
+        margin-right: 1rem;
+    }
+ }
